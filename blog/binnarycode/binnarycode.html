@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Binary Converter</title>
+<link rel="stylesheet" href="binary.css">
+<link rel="stylesheet" href="../../nav/nav.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">QuillScribe</label>
+        <ul>
+          <li><a class="active" href="../binarrycode.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+<div id="container">
+    <h2>Text to Binary Converter</h2>
+    <textarea id="inputText" placeholder="Enter text here"></textarea><br>
+
+  <button onclick="textToBinary()" id="bottone1"><strong>Convert to Binary</strong></button>
+    <br><br>
+    <h2>Binary to Text Converter</h2>
+    <textarea id="inputBinary" placeholder="Enter binary code here"></textarea><br>
+    <button onclick="binaryToText()" id="bottone1"><strong>Convert to Text</strong></button>
+</div>
+
+<script src="binnary.js"></script>
+</body>
+</html>
